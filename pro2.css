@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+body {
+    background:linear-gradient(45deg,#d200af,#d16506,rgb(47, 8, 147));
+
+}
+.full{
+    width:100%;
+    height:100vh;
+}
+.nav{
+    width:100%;
+    height:80px;
+    /* background-color:white; */
+}
+h1{
+    font-family: 'Playwrite BE VLG' ;
+    text-align: center;
+}
+.body{
+    width:100%px;
+    height:600px;
+    /* background-color: blue; */
+}
+.body img{
+    border-radius:20px;
+    margin-left:5px; 
+    margin-top:5px;
+}
+h2{
+    text-align: center;
+}
+.icons{
+    text-align: center;
+}
+.one{
+    width:420px;
+    height:600px;
+    clear: both;
+    float: left;
+    background-color:white;
+    margin-left:50px;
+    margin-top:20px;
+    border-radius:20px;
+    transition:1s;
+}
+.one:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.two{
+    
+    width:420px;
+    height:600px;
+    float: left;
+    background-color:white;
+    margin-left:50px;
+     margin-top:20px;
+     border-radius:20px;
+     transition:1s;
+}
+.two:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.three{
+     
+    width:420px;
+    height:600px;
+    float: left;
+    background-color:white;
+    margin-left:50px;
+     margin-top:20px;
+     border-radius:20px;
+     transition:1s;
+}
+.three:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
